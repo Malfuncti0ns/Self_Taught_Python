@@ -1,2 +1,5 @@
-a = 2 ** 3
-print(a)
+home = 'China'
+if home == 'America':
+    print('Hello, America!')
+else:
+    print('Hello ' + home + '!')
