@@ -24,9 +24,24 @@ print(details)
 # 4. Write a program that lets the user ask your height, favorite color, or favorite author, and returns the result from the dictionary 
 # you created in the previous challenge.
 
+details2 = {
+    'Height' : input("Please input your height: "),
+    'Colour' : input("Please input your favourite colour: "),
+    'Author' : input("Please input your favourite author:" ) 
+}
 
-
-
+print(details2)
+print(details2['Author'])
 
 # 5. Create a dictionary mapping your favorite musicians to a list of your favorite songs by them.
+artists = {
+    'metal' : ['Sleep Token', 'Parkway Drive','Ghost'],
+    'rap' : ['Kendrick Lamar', 'Mac Miller', 'Amine'],
+    'dnb' : ['Chase and Status', 'Dimension', '1991']
+}
+print(artists['rap'])
+
 # 6. Lists, tuples, and dictionaries are just a few of the containers built into Python. Research Python sets (a type of container). When would you use a set?
+
+# Sets are used to store multiple items in a single variable, they are unordered, unchangeable and do not allow duplicate values. If you want an unordered collection of unique
+# elements then a set best suits this need.
