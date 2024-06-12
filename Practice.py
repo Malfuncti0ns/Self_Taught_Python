@@ -1,0 +1,3 @@
+import format
+
+print(format)
